@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.5)
+project(HelloWorld)
+set(CMAKE_CXX_STANDARD 11)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+file(GLOB SRC_LIST ${PROJECT_SOURCE_DIR}/src/*.cpp)
+set(SRC_LIST ${SRC_LIST} ${PROJECT_SOURCE_DIR}/main.cpp)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+add_executable(HelloWorld ${SRC_LIST})
