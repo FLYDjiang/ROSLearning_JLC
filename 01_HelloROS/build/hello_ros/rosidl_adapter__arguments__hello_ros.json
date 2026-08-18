@@ -1,0 +1,6 @@
+{
+  "package_name": "hello_ros",
+  "non_idl_tuples": [
+    "/home/jlc/MEI/01_HelloROS_git/01_HelloROS/src/hello_ros:msg/RobotPoseMsg.msg"
+  ]
+}
